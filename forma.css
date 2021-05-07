@@ -1,0 +1,109 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+p.footer-p,
+p.header__completion,
+p.header__h {
+    margin: 0;
+    padding: 0;
+}
+.form-demontaj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 10px;
+    max-width: 452px;
+    border: 1px solid brown;
+    border-radius: 2px;
+    background-color: cornsilk;
+    box-shadow: 10px 10px 20px;
+    margin-top: 35px;
+    
+}
+.form-demontaj__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(17, 17, 17);
+}
+.form-demontaj__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 0;
+    width: 95%;
+}
+.footer_textarea {
+    min-height: 70px;
+    resize: none;
+}
+.obertka {
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.obertka * {
+    width: 100%;
+}
+.footer_tell,
+.footer_name {
+    min-height: 34px;
+    
+}
+.style-focus {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 5px;
+}
+.footer_submit {
+    background-color:rgb(35, 155, 24);
+    font-size: 21px;
+    color: cornsilk;
+    outline: none;
+    border: none;
+    padding: 10px;
+    box-shadow: 3px 5px 10px black;
+    white-space: pre-line;
+}
+.footer_submit:active {
+    box-shadow: inset 1px 1px 9px black;
+}
+.header__completion {
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+    padding-top: 10px;
+}
+::placeholder {
+    opacity: 0.7;
+}
+.style-focus:focus {
+    border: 1px solid #66afe9;
+    box-shadow: 0 0 8px rgba(102,175,233,.6);
+    outline: none;
+}
+.footer-p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+}
+@media (max-width:466px) {
+    .header__h {
+        font-size: 21px;
+    }
+}
+@media (max-width: 565px) {
+    .coll__h,
+    .viber_a,
+    .phone_a {
+        font-size: 27px;
+    }
+    .smeta__box {
+        padding-top: 220px;
+    }
+}
